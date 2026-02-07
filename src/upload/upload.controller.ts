@@ -51,8 +51,8 @@ export class UploadController {
       .toFile(compressedPath);
 
     return {
-      original: `https://api.milliydoppi.uz/images/${file.filename}`,
-      compressed: `https://api.milliydoppi.uz/images/compressed-${file.filename}`,
+      original: `https://api.boburkovka.uz/images/${file.filename}`,
+      compressed: `https://api.boburkovka.uz/images/compressed-${file.filename}`,
     };
   }
 }
